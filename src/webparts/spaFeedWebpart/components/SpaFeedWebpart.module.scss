@@ -1,0 +1,152 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.spaFeedWebpart {
+  .container {
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ebebeb;
+    padding-bottom: 1px;
+  }
+
+  .Add{
+      margin-bottom: 20px;
+   }
+
+   .AddTable{
+      width:100%;
+      margin-Left:10px;
+      margin-Right:10px;
+      margin-Bottom:10px;
+      margin-Top:20px;
+   }
+
+  .HeaderRow{
+    background-color: #f09311;
+    width: 100%;
+  }
+
+  .DisplayWebpart{
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .Feed{
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+  }
+
+  .FocusDiv:focus{
+      background-color: #d3fa69;
+      border: 1px solid #d3fa69; 
+  }
+
+ Input:focus{
+    background-color: #d3fa69;
+    border: 1px solid #d3fa69;  
+  }
+
+  .Feed:hover{
+    background-color: #d3fa69 !important;
+ }
+
+ .FeedTitle{
+    color:brown;
+    text-align:center;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
+ }
+
+ .FeedDescription{
+    color:black;
+    text-align:center;
+    padding-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
+ }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .CustomButton{
+      // Our button
+      text-decoration: none;
+      height: 32px;
+
+      // Primary Button
+      min-width: 80px;
+      background-color: black;
+      border-color: black;
+      color: $ms-color-white;
+
+      // Basic Button
+      outline: transparent;
+      position: relative;
+      font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+      -webkit-font-smoothing: antialiased;
+      font-size: $ms-font-size-m;
+      font-weight: $ms-font-weight-regular;
+      border-width: 0;
+      text-align: center;
+      cursor: pointer;
+      display: inline-block;
+      padding: 0 16px;
+  }
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: black;
+    border-color: black;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+  }
+}

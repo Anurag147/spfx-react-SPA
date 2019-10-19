@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spa-feed-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spaFeedWebpart/SpaFeedWebpartWebPart.js",
+          "manifest": "./src/webparts/spaFeedWebpart/SpaFeedWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "bootstrap": {
+      "path": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+      "globalName": "bootstrap"
+    }
+  },
+  "localizedResources": {
+    "SpaFeedWebpartWebPartStrings": "lib/webparts/spaFeedWebpart/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-react-spa-client-side-solution",
+    "id": "323b5846-0d00-4bad-8325-ca5880131f59",
+    "version": "2.0.0.6",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-spa.sppkg"
+  }
+}
